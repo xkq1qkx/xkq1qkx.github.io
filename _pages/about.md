@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 🤖 About me
 
-Hi! I am a third-year undergrad in the school of EECS, Peking University, majoring in Computer Science.
+Hi👋🏻！ I am a third-year undergraduate student at Peking University, majoring in Computer Science in the School of Electronics Engineering and Computer Science (EECS), and pursuing a dual degree in Sociology through the Department of Sociology.
 
 I worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https://warshallrho.github.io) and [Xiaojie Zhang]() at PKU-Agibot Lab, where I was fortunate to be advised by Prof.[Hao Dong](https://zsdonghao.github.io). 
 
@@ -54,6 +54,16 @@ Reasoning and Part Grounding]()
 </div>
 </div>
 
+# Open Source Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/kinship_proj.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Emergent Language For Kinship Terms](https://github.com/xkq1qkx/Emergent-Language-For-Kinship-Terms)
+
+[Zhengyu Qian](), [Zhining Zhang](https://zhining.space), \***Kunqi Xu**\*, [Lingjun Chen]() 
+- in submission
+</div>
+</div>
 # 🎖 Honors and Awards
 - *2022 - 2023* Peking University Merit Student
 - *2022 - 2023* Ling Jun Pilot Scholarship
@@ -68,7 +78,7 @@ Reasoning and Part Grounding]()
     <div style="flex: 1;">
     </div>
     <div style="flex: 7;">
-        <p><strong>Peking University</strong> <br>Undergraduate student at the school of EECS  <br>2022.09 - present</p>
+        <p><strong>Peking University</strong> <br>2022.09 - present</p> <br>School of EECS <br> Department of Sociology 
     </div>
 </div>
 
