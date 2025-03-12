@@ -26,13 +26,12 @@ And I also spent wonderful time working with [Haoran Geng](https://geng-haoran.g
 
 I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation and humanoid robot motion control. I am also exploring science of character animation and physics-based simulation.
 
-<div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 42em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
+<div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&ldquo;</span>
-  Technology alone is not enough — it's technology married with liberal arts,<br> 
-  married with the humanities, that yields us the results that make our heart sing.
+  Technology alone is not enough — it's technology married with liberal arts, married with the humanities, that yields us the results that make our heart sing.
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&rdquo;</span>
   <div style="margin-top: 0.8rem; font-style: normal; font-family: 'Arial', sans-serif; font-size: 0.9em; letter-spacing: 0.05em;">
-    — Steve Jobs, 1997 Apple Worldwide Developers Conference
+    — Steve Jobs
   </div>
 </div>
 
