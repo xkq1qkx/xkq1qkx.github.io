@@ -28,11 +28,8 @@ I aspire to do interesting, insightful, and fundamental research. My current res
 
 <div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&ldquo;</span>
-  Technology alone is not enough — it's technology married with liberal arts, married with the humanities, that yields us the results that make our heart sing.
+  Technology alone is not enough — it's technology married with liberal arts, married with the humanities, that yields us the results that make our heart sing.   — Steve Jobs
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&rdquo;</span>
-  <div style="margin-top: 0.8rem; font-style: normal; font-family: 'Arial', sans-serif; font-size: 0.9em; letter-spacing: 0.05em;">
-    — Steve Jobs
-  </div>
 </div>
 
 # 🔥 News
@@ -63,7 +60,7 @@ Reasoning and Part Grounding]()
 </div>
 </div>
 
-# Open Source Projects
+# 🔩 Open Source Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/kinship_proj.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -87,7 +84,7 @@ Reasoning and Part Grounding]()
     <div style="flex: 1;">
     </div>
     <div style="flex: 7;">
-        <p><strong>Peking University</strong> <br>2022.09 - present <br>School of EECS & Department of Sociology</p> 
+        <p><strong>Peking University</strong> <br>2022.09 - present <br>School of EECS \& Department of Sociology</p> 
     </div>
 </div>
 
