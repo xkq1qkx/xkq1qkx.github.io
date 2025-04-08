@@ -33,7 +33,7 @@ I aspire to do interesting, insightful, and fundamental research. My current res
 </div>
 
 # 🔥 News
-- *2025.03*: &nbsp;⭐️ submit two papers to ICCV2025.
+- *2025.03*: &nbsp;
 
 
 # 📝 Publications 
