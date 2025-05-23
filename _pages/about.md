@@ -24,7 +24,7 @@ I worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https:
 
 And I also spent wonderful time working with [Haoran Geng](https://geng-haoran.github.io), [Yutong Liang](https://www.lyt0112.com) and [Yuxuan Kuang]().
 
-I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation and humanoid robot motion control. I am also exploring science of character animation and physics-based simulation.
+I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation and humanoid robot motion control. I am also exploring physics-based simulation.
 
 <div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&ldquo;</span>
