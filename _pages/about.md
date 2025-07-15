@@ -49,7 +49,7 @@ Articulated Object Manipulation]()
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/AdaLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/AdaLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model
