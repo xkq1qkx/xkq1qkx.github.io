@@ -20,20 +20,20 @@ redirect_from:
 
 Hi 👋🏻! I am a third-year undergraduate student at Peking University, majoring in Computer Science in the School of Electronics Engineering and Computer Science (EECS), and pursuing a dual degree in Sociology through the Department of Sociology.
 
-I previously worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https://warshallrho.github.io) and [Xiaojie Zhang]() at PKU-Agibot Lab, under the supervision of Prof.[Hao Dong](https://zsdonghao.github.io). 
+I previously worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https://warshallrho.github.io) and Xiaojie Zhang at PKU-Agibot Lab, under the supervision of Prof.[Hao Dong](https://zsdonghao.github.io). 
 
-I am now working with [Zhenhao Huang](), [Siyuan Luo](https://www.siyuanluo.com/) and [Ziqiu Zeng](https://ziqiu-zeng.github.io/homepage/) at the [Human-Centered Robotic Lab](https://nus-hcrl.github.io/index), National University of Singapore, where I was fortunate to be advised by Prof.[Fan Shi](https://fanshi14.github.io/me/)
+I am now working with Zhenhao Huang, [Siyuan Luo](https://www.siyuanluo.com/) and [Ziqiu Zeng](https://ziqiu-zeng.github.io/homepage/) at the [Human-Centered Robotic Lab](https://nus-hcrl.github.io/index), National University of Singapore, where I was fortunate to be advised by Prof.[Fan Shi](https://fanshi14.github.io/me/)
 
 I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation. I am also exploring physics-based simulation.
 
-<div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
+<!--div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&ldquo;</span>
   
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&rdquo;</span>
-</div>
+</div-->
 
 # 🔥 News
-- *2025.05*: AdaRPG is&nbsp;
+<!-- - *2025.05*: AdaRPG is&nbsp;-->
 
 
 # 📝 Publications 
@@ -55,7 +55,7 @@ Articulated Object Manipulation]()
 [AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model
 Reasoning and Part Grounding]()
 
-[Xiaojie Zhang]()\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](https://warshallrho.github.io), **Kunqi Xu**, [Yu Li](https://student-of-holmes.github.io), [Liuyu Xiang](), Hao Dong, [Zhaofeng He]()
+Xiaojie Zhang\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](https://warshallrho.github.io), **Kunqi Xu**, [Yu Li](https://student-of-holmes.github.io), Liuyu Xiang, Hao Dong, Zhaofeng He
 - ICCV 2025
 </div>
 </div>
