@@ -38,24 +38,33 @@ I aspire to do interesting, insightful, and fundamental research. My current res
 
 # 📝 Publications 
 \* equal contribution
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/fomoafford2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/Real_IKEA-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[FoMoAfford: Efficient Affordance Exploration with Foundation Models for Generalizable
-Articulated Object Manipulation]()
+Real-IKEA : Simulating What Robots Will Really See and Touch
 
-[Yuanfei Wang](https://yuanfei-wang.github.io)\*, **Kunqi Xu**\*, [Ruihai Wu](https://warshallrho.github.io), [Hao Dong](https://zsdonghao.github.io) 
+**Kunqi Xu**, Zhenhao Huang, Siyuan Luo, Ziqiu Zeng, Fan Shi 
+- in submission
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/FoMax-1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+FoMoAfford: Efficient Affordance Exploration with Foundation Models for Generalizable
+Articulated Object Manipulation
+
+Yuanfei Wang\*, **Kunqi Xu**\*, Ruihai Wu, Hao Dong
 - in submission
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/AdaLLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/AdaRPG-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model
-Reasoning and Part Grounding]()
+AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model
+Reasoning and Part Grounding
 
-Xiaojie Zhang\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](https://warshallrho.github.io), **Kunqi Xu**, [Yu Li](https://student-of-holmes.github.io), Liuyu Xiang, Hao Dong, Zhaofeng He
+Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu, **Kunqi Xu**, Yu Li, Liuyu Xiang, Hao Dong, Zhaofeng He
 - ICCV 2025
 </div>
 </div>
