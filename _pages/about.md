@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 🤖 About me
 
-Hi 👋🏻! I am a third-year undergraduate student at Peking University, majoring in Computer Science in the School of Electronics Engineering and Computer Science (EECS), and pursuing a dual degree in Sociology through the Department of Sociology.
+Hi 👋🏻! I am a undergraduate student at Peking University, majoring in Computer Science in the School of Electronics Engineering and Computer Science (EECS), and pursuing a dual degree in Sociology through the Department of Sociology.
 
 I previously worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https://warshallrho.github.io) and Xiaojie Zhang at PKU-Agibot Lab, under the supervision of Prof.[Hao Dong](https://zsdonghao.github.io). 
 
@@ -66,14 +66,18 @@ Xiaojie Zhang\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](h
 
 [Emergent Language For Kinship Terms](https://github.com/xkq1qkx/Emergent-Language-For-Kinship-Terms)
 
-[Zhengyu Qian]()\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, [Lingjun Chen]()\* 
+Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, Lingjun Chen\* 
 </div>
 </div>
 # 🎖 Honors and Awards
-- *2022 - 2023* Peking University Merit Student
-- *2022 - 2023* Ling Jun Pilot Scholarship
-- *2023 - 2024* Peking University Merit Student
-- *2023 - 2024* Jun Yuan Scholarship
+- *2023* Merit Student, Peking University
+- *2023* Ling Jun Pioneer Scholarship, Peking University
+- *2024* Merit Student, Peking University
+- *2024* Jun Yuan Scholarship, Peking University
+- *2025* Award for Scientific Research, Peking University
+- *2025* Yang Fuqing & Wang Yangyuan Academician Scholarship
+- *2025* 
+
 
 # 📖 Experience
 <div style="display: flex; align-items: center; height: 120px;">
@@ -94,7 +98,7 @@ Xiaojie Zhang\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](h
     <div style="flex: 1;">
     </div>
     <div style="flex: 7;">
-        <p><strong>National University of Singapore</strong> <br>2025.06 - present </p>
+        <p><strong>National University of Singapore</strong> <br>2025.06 - 2025.10</p>
     </div>
 </div>
 
@@ -105,10 +109,20 @@ Xiaojie Zhang\*, [Yuanfei Wang](https://yuanfei-wang.github.io)\*, [Ruihai Wu](h
     <div style="flex: 1;">
     </div>
     <div style="flex: 7;">
-        <p><strong>...</strong> </p>
+        <p><strong>RWTH Aachen University</strong> <br>2025.10 - 2026.03 <br>Exchange student</p>
     </div>
 </div>
 
+<div style="display: flex; align-items: center; height: 120px;">
+    <div style="flex: 2;">
+        <img src="images/thu_logo.jpg" height="100px" style="vertical-align:middle;">
+    </div>
+    <div style="flex: 1;">
+    </div>
+    <div style="flex: 7;">
+        <p><strong>...</strong></p>
+    </div>
+</div>
 # 💬 Invited Talks
 
 # 💻 Internship
