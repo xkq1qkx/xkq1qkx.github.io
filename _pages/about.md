@@ -38,6 +38,7 @@ I aspire to do interesting, insightful, and fundamental research. My current res
 
 # 📝 Publications 
 \* equal contribution
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/Real_IKEA-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -45,6 +46,7 @@ Real-IKEA : Simulating What Robots Will Really See and Touch
 
 **Kunqi Xu**, Zhenhao Huang, Siyuan Luo, Ziqiu Zeng, Fan Shi 
 - in submission
+</div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/FoMax-1.png' alt="sym" width="100%"></div></div>
@@ -132,6 +134,7 @@ Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, Lingju
         <p><strong>...</strong></p>
     </div>
 </div>
+
 # 💬 Invited Talks
 
 # 💻 Internship
