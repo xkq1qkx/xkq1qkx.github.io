@@ -75,9 +75,11 @@ Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu, **Kunqi Xu**, Yu Li, Liuyu Xiang, Ha
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/kinship_proj.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Emergent Language For Kinship Terms](https://github.com/xkq1qkx/Emergent-Language-For-Kinship-Terms)
+Emergent Language For Kinship Terms
 
 Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, Lingjun Chen\* 
+
+[[Code]](https://github.com/xkq1qkx/Emergent-Language-For-Kinship-Terms)
 </div>
 </div>
 # 🎖 Honors and Awards
