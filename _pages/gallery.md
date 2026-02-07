@@ -2,89 +2,135 @@
 layout: default
 title: "Gallery"
 permalink: /gallery/
-author_profile: true
-# 在这里管理你的图片，添加新图片只需在下面增加一行
+author_profile: false  # 关键：移除个人信息侧边栏
+# 在这里管理图片
 images:
   - image_path: /images/pku_red.jpg
-    title: "Peking University - Campus"
+    title: "PKU Red"
+    description: "Autumn at Peking University"
   - image_path: /images/nus_logo.jpg
-    title: "NUS Internship"
-  # 复制上面的格式添加更多图片...
+    title: "Singapore"
+    description: "Memories from NUS internship"
+  - image_path: /images/xkq_homepage.jpg
+    title: "Portrait"
+    description: "Self portrait"
 ---
 
-# 📷 Gallery
-
-风景
-
 <style>
-/* 画廊容器 */
+/* 隐藏默认标题 */
+.page__title { display: none; }
+/* 让内容区域更宽，移除默认限制 */
+.page__content { width: 100% !important; max-width: 1200px !important; margin: 0 auto; }
+
+.gallery-container {
+  padding: 40px 20px;
+}
+
+.gallery-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.gallery-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 300; /* 细字体更有艺术感 */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.gallery-intro p {
+  color: #888;
+  font-style: italic;
+}
+
+/* 网格布局 */
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 15px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 自适应列宽 */
+  gap: 20px;
 }
 
-/* 单个图片卡片 */
+/* 图片容器 */
 .gallery-item {
   position: relative;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  aspect-ratio: 1 / 1; /* 强制正方形，如果想保持原图比例可去掉这行 */
-  background: #f0f0f0;
+  border-radius: 8px;
+  background: #eee;
+  aspect-ratio: 4/3; /* 统一图片比例，如果想要瀑布流需要用JS，CSS Grid这样最整齐 */
+  cursor: pointer;
 }
 
-/* 鼠标悬停效果 */
-.gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-}
-
-/* 图片样式 */
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 关键：裁剪图片以填满方框，保持整齐 */
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: block;
-  transition: transform 0.5s ease;
 }
 
-.gallery-item:hover img {
-  transform: scale(1.05); /* 悬停时图片轻微放大 */
-}
-
-/* 标题遮罩层 */
-.gallery-caption {
+/* 悬停遮罩 */
+.item-overlay {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-  color: #fff;
-  padding: 10px;
-  padding-top: 20px;
-  font-size: 0.9rem;
-  text-align: center;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 20px;
 }
 
-.gallery-item:hover .gallery-caption {
+.item-overlay h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+}
+
+.item-overlay p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ddd;
+  transform: translateY(20px);
+  transition: transform 0.3s ease 0.1s; /* 延迟一点点 */
+}
+
+/* 悬停交互 */
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery-item:hover .item-overlay {
   opacity: 1;
 }
+.gallery-item:hover h3, 
+.gallery-item:hover p {
+  transform: translateY(0);
+}
+
 </style>
 
-<div class="gallery-grid">
-  {% for img in page.images %}
-    <div class="gallery-item">
-      <a href="{{ img.image_path }}" title="{{ img.title }}">
-        <img src="{{ img.image_path }}" alt="{{ img.title }}">
-        {% if img.title %}
-          <div class="gallery-caption">{{ img.title }}</div>
-        {% endif %}
-      </a>
-    </div>
-  {% endfor %}
+<div class="gallery-container">
+  <div class="gallery-intro">
+    <h1>Visuals</h1>
+    <p>Captured moments and scenery.</p>
+  </div>
+
+  <div class="gallery-grid">
+    {% for img in page.images %}
+      <div class="gallery-item">
+        <a href="{{ img.image_path }}">
+          <img src="{{ img.image_path }}" loading="lazy" alt="{{ img.title }}">
+          <div class="item-overlay">
+            <h3>{{ img.title }}</h3>
+            {% if img.description %}<p>{{ img.description }}</p>{% endif %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
