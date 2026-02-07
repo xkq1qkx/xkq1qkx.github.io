@@ -127,6 +127,18 @@ defaults:
       layout: default
       author_profile: true
 
+  # _posts (文章默认设置)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default        # 确保使用 default 布局
+      author_profile: false  # 默认关闭侧边栏个人信息
+      zhihu_style: true      # 默认开启知乎风格
+      read_time: true
+      comments: true
+      share: false           # 建议关闭分享按钮，保持干净
+      related: false         # 建议关闭相关文章推荐，保持干净
 
 # Sass/SCSS
 sass:

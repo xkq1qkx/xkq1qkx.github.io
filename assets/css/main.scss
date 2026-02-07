@@ -107,3 +107,96 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ==========================================================================
+   Zhihu / Medium Style Layout (Custom)
+   ========================================================================== */
+
+/* 当页面开启 zhihu_style 时生效 */
+body.zhihu-layout {
+  background-color: #f6f6f6; /* 知乎经典的浅灰背景 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 1. 隐藏多余元素：导航栏、侧边栏、底部标签、面包屑 */
+.zhihu-layout .masthead,
+.zhihu-layout .sidebar,
+.zhihu-layout .breadcrumbs,
+.zhihu-layout .page__share,
+.zhihu-layout .page__related,
+.zhihu-layout .page__meta .page__taxonomy, /* 隐藏文章标题下的标签 */
+.zhihu-layout .page__footer {
+  display: none !important;
+}
+
+/* 2. 重置布局：取消左右分栏，改为居中 */
+.zhihu-layout .page {
+  width: 100% !important;
+  float: none !important;
+  margin: 0 auto !important;
+  padding-right: 0 !important;
+}
+
+.zhihu-layout #main {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* 3. 白卡片容器样式 */
+.zhihu-layout .page__inner-wrap {
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 50px 60px; /* 增加内边距，呼吸感更强 */
+  border-radius: 4px; /* 轻微圆角 */
+  box-shadow: 0 1px 3px rgba(18, 18, 18, 0.1); /* 细腻的阴影 */
+  width: 100%;
+  max-width: 800px; /* 限制阅读宽度，模拟知乎专栏 */
+  box-sizing: border-box;
+}
+
+/* 4. 手机端适配 */
+@media screen and (max-width: 800px) {
+  .zhihu-layout .page__inner-wrap {
+    margin-top: 0;
+    padding: 30px 20px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* 5. 字体排版优化 */
+.zhihu-layout .page__title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-size: 2.2em;
+  font-weight: 600;
+  color: #121212;
+  letter-spacing: -0.5px;
+}
+
+.zhihu-layout .page__content {
+  font-size: 1.1rem;
+  line-height: 1.8; /* 更舒适的行高 */
+  color: #121212;
+}
+
+.zhihu-layout .page__content h2 {
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  border-bottom: none;
+  font-weight: 600;
+}
+
+/* 文章元数据（日期）样式微调 */
+.zhihu-layout .page__meta {
+  color: #8590a6;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  margin-top: 0;
+  text-transform: none;
+}

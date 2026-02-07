@@ -2,7 +2,8 @@
 layout: default
 title: "Blog"
 permalink: /blog/
-author_profile: false  # 关键：这行代码会隐藏侧边栏和个人照片
+author_profile: false
+zhihu_style: true   <-- 添加这行
 ---
 
 <style>

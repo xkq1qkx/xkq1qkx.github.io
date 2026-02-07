@@ -3,6 +3,7 @@ layout: default
 title: "Gallery"
 permalink: /gallery/
 author_profile: false  # 关键：移除个人信息侧边栏
+zhihu_style: true
 # 在这里管理图片
 images:
   - image_path: /images/pku_red.jpg
