@@ -9,7 +9,12 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="{% if page.zhihu_style %}zhihu-layout{% endif %}">
+  {% assign is_zhihu = false %}
+  {% if page.zhihu_style or page.collection == 'posts' %}
+    {% assign is_zhihu = true %}
+  {% endif %}
+
+  <body class="{% if is_zhihu %}zhihu-layout{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
