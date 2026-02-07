@@ -109,94 +109,166 @@ h1:before, .anchor:before {
 }
 
 /* ==========================================================================
-   Zhihu / Medium Style Layout (Custom)
+   Zhihu / Minimalist Style (Revised)
    ========================================================================== */
 
-/* 当页面开启 zhihu_style 时生效 */
 body.zhihu-layout {
-  background-color: #f6f6f6; /* 知乎经典的浅灰背景 */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: #f6f6f6 !important; /* 灰色背景 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
 }
 
-/* 1. 隐藏多余元素：导航栏、侧边栏、底部标签、面包屑 */
-.zhihu-layout .masthead,
-.zhihu-layout .sidebar,
-.zhihu-layout .breadcrumbs,
-.zhihu-layout .page__share,
-.zhihu-layout .page__related,
-.zhihu-layout .page__meta .page__taxonomy, /* 隐藏文章标题下的标签 */
-.zhihu-layout .page__footer {
+/* 1. 暴力隐藏所有不想要的元素 (导航、侧边栏、面包屑、底部、标签) */
+.zhihu-layout .masthead,       /* 顶部导航条 */
+.zhihu-layout .sidebar,        /* 侧边栏 */
+.zhihu-layout .breadcrumbs,    /* 面包屑导航 (Home > Blog) */
+.zhihu-layout .page__share,    /* 分享按钮 */
+.zhihu-layout .page__related,  /* 相关推荐 */
+.zhihu-layout .page__footer,   /* 底部页脚 */
+.zhihu-layout .page__meta .page__taxonomy, /* 文章里的分类标签 */
+.zhihu-layout #footer          /* 部分主题的页脚ID */
+{
   display: none !important;
 }
 
-/* 2. 重置布局：取消左右分栏，改为居中 */
+/* 2. 布局重置：居中白卡片 */
 .zhihu-layout .page {
   width: 100% !important;
+  max-width: 800px !important; /* 限制最大宽度，类似知乎专栏 */
+  margin: 40px auto !important;
   float: none !important;
-  margin: 0 auto !important;
-  padding-right: 0 !important;
+  padding: 0 !important;
 }
 
 .zhihu-layout #main {
   margin: 0 !important;
-  padding: 0 !important;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  padding: 0 10px !important; /* 手机端留点边距 */
+  display: block !important;
 }
 
-/* 3. 白卡片容器样式 */
+/* 白卡片容器 */
 .zhihu-layout .page__inner-wrap {
   background: #fff;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  padding: 50px 60px; /* 增加内边距，呼吸感更强 */
-  border-radius: 4px; /* 轻微圆角 */
-  box-shadow: 0 1px 3px rgba(18, 18, 18, 0.1); /* 细腻的阴影 */
-  width: 100%;
-  max-width: 800px; /* 限制阅读宽度，模拟知乎专栏 */
-  box-sizing: border-box;
+  padding: 50px 60px !important; /* 充足的留白 */
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-top: 0 !important;
 }
 
-/* 4. 手机端适配 */
-@media screen and (max-width: 800px) {
+/* 手机端适配 */
+@media screen and (max-width: 768px) {
   .zhihu-layout .page__inner-wrap {
-    margin-top: 0;
-    padding: 30px 20px;
-    border-radius: 0;
-    box-shadow: none;
+    padding: 30px 20px !important;
   }
 }
 
-/* 5. 字体排版优化 */
+/* 3. 页面标题样式 (如 Blog, Gallery 的大标题) */
 .zhihu-layout .page__title {
   margin-top: 0;
-  margin-bottom: 0.5em;
-  border-bottom: none;
-  font-size: 2.2em;
+  margin-bottom: 30px;
+  font-size: 2em;
   font-weight: 600;
   color: #121212;
-  letter-spacing: -0.5px;
+  border-bottom: none !important;
+  text-align: left; /* 左对齐更像专栏 */
 }
 
+/* 4. Blog 列表样式 (对应 _pages/blog.md) */
+.zhihu-list .zhihu-post-item {
+  padding: 25px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.zhihu-list .zhihu-post-item:last-child {
+  border-bottom: none;
+}
+
+.zhihu-list .post-title {
+  font-size: 1.4em;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.zhihu-list .post-title a {
+  color: #121212;
+  text-decoration: none;
+}
+
+.zhihu-list .post-title a:hover {
+  color: #175199; /* 知乎蓝 */
+}
+
+.zhihu-list .post-meta {
+  font-size: 0.9em;
+  color: #8590a6;
+  margin-bottom: 10px;
+}
+
+.zhihu-list .post-excerpt {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.zhihu-list .read-more {
+  color: #175199;
+  font-size: 0.9em;
+  margin-left: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* 5. Gallery 网格样式 (对应 _pages/gallery.md) */
+.zhihu-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.zhihu-gallery .gallery-card {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.zhihu-gallery .gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.zhihu-gallery .gallery-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.zhihu-gallery .caption {
+  padding: 10px;
+  font-size: 0.9em;
+  color: #444;
+  text-align: center;
+  background: #fff;
+}
+
+/* 6. 文章正文样式优化 */
 .zhihu-layout .page__content {
-  font-size: 1.1rem;
-  line-height: 1.8; /* 更舒适的行高 */
+  font-size: 16px;
+  line-height: 1.8;
   color: #121212;
 }
 
-.zhihu-layout .page__content h2 {
+.zhihu-layout .page__content h2,
+.zhihu-layout .page__content h3 {
   margin-top: 1.5em;
-  font-size: 1.5em;
-  border-bottom: none;
+  margin-bottom: 0.8em;
   font-weight: 600;
+  color: #121212;
 }
 
-/* 文章元数据（日期）样式微调 */
+/* 隐藏文章顶部的 meta data (如: 1分钟阅读) 如果不需要 */
 .zhihu-layout .page__meta {
   color: #8590a6;
-  font-size: 0.9em;
-  margin-bottom: 2em;
-  margin-top: 0;
-  text-transform: none;
 }
