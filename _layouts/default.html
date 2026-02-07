@@ -7,12 +7,152 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-  </head>
 
-  {% assign is_zhihu = false %}
-  {% if page.zhihu_style or page.collection == 'posts' %}
-    {% assign is_zhihu = true %}
-  {% endif %}
+    {% assign is_zhihu = false %}
+    {% comment %} 
+      判断逻辑：如果页面有 zhihu_style 标记，或者属于 posts (文章) 集合，则开启知乎模式 
+    {% endcomment %}
+    {% if page.zhihu_style or page.collection == 'posts' %}
+      {% assign is_zhihu = true %}
+    {% endif %}
+
+    {% if is_zhihu %}
+    <style>
+      /* 1. 全局背景与字体 - 强制覆盖 */
+      body.zhihu-layout {
+        background-color: #f6f6f6 !important;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+      }
+
+      /* 2. 暴力隐藏所有干扰元素 */
+      .zhihu-layout .masthead,       /* 顶部导航条 */
+      .zhihu-layout .sidebar,        /* 侧边栏(个人信息) */
+      .zhihu-layout .breadcrumbs,    /* 面包屑导航 */
+      .zhihu-layout .page__share,    /* 分享按钮 */
+      .zhihu-layout .page__related,  /* 底部相关文章 */
+      .zhihu-layout .page__footer,   /* 底部页脚 */
+      .zhihu-layout .page__taxonomy, /* 文章分类标签 */
+      .zhihu-layout #footer,
+      .zhihu-layout .author__profile
+      {
+        display: none !important;
+      }
+
+      /* 3. 布局重置：居中白卡片 */
+      .zhihu-layout .page {
+        width: 100% !important;
+        max-width: 800px !important; /* 阅读最佳宽度 */
+        margin: 40px auto !important;
+        float: none !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+      }
+
+      .zhihu-layout #main {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+      }
+
+      /* 白卡片容器 */
+      .zhihu-layout .page__inner-wrap {
+        background: #fff;
+        padding: 50px 60px !important;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(18, 18, 18, 0.1);
+        margin-top: 0 !important;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      /* 4. 标题样式 */
+      .zhihu-layout .page__title {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 2.2em;
+        font-weight: 600;
+        color: #121212;
+        border-bottom: none !important;
+        text-align: left;
+        line-height: 1.3;
+      }
+
+      /* 5. 元数据 (日期) */
+      .zhihu-layout .page__meta {
+        color: #8590a6;
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 20px;
+        text-transform: none;
+      }
+      .zhihu-layout .page__meta i { display: none; }
+
+      /* 6. 正文阅读体验优化 */
+      .zhihu-layout .page__content {
+        font-size: 17px;
+        line-height: 1.7;
+        color: #121212;
+      }
+      .zhihu-layout .page__content p { margin-bottom: 1.5em; }
+      .zhihu-layout .page__content h2 { 
+        font-size: 1.5em; 
+        margin-top: 1.5em; 
+        font-weight: 600; 
+        border-bottom: none;
+      }
+      .zhihu-layout .page__content a { color: #175199; text-decoration: none; }
+      .zhihu-layout .page__content a:hover { text-decoration: underline; }
+
+      /* 7. Blog 列表页样式 */
+      .zhihu-list .zhihu-post-item {
+        padding: 20px 0;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .zhihu-list .post-title { font-size: 1.3em; margin: 0 0 8px 0; font-weight: 600; }
+      .zhihu-list .post-title a { color: #121212; text-decoration: none; }
+      .zhihu-list .post-title a:hover { color: #175199; }
+      .zhihu-list .post-meta { font-size: 0.9em; color: #8590a6; margin-bottom: 10px; }
+      .zhihu-list .post-excerpt { font-size: 15px; color: #444; line-height: 1.6; }
+      .zhihu-list .read-more { color: #175199; font-size: 0.9em; margin-left: 8px; text-decoration: none; }
+
+      /* 8. Gallery 网格样式 */
+      .zhihu-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 15px;
+      }
+      .zhihu-gallery .gallery-card {
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+        background: #f9f9f9;
+        transition: transform 0.2s;
+      }
+      .zhihu-gallery .gallery-card:hover { transform: translateY(-4px); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+      .zhihu-gallery .gallery-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+      }
+      .zhihu-gallery .caption {
+        padding: 10px;
+        font-size: 0.9em;
+        color: #444;
+        text-align: center;
+        background: #fff;
+      }
+
+      /* 手机适配 */
+      @media screen and (max-width: 768px) {
+        .zhihu-layout .page__inner-wrap { padding: 30px 20px !important; }
+        .zhihu-layout .page { margin: 0 auto !important; }
+      }
+    </style>
+    {% endif %}
+  </head>
 
   <body class="{% if is_zhihu %}zhihu-layout{% endif %}">
 
@@ -24,10 +164,35 @@ layout: compress
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        
         <div class="page__inner-wrap">
+          
+          {% unless page.url contains '/blog/' or page.url contains '/gallery/' %}
+            {% if page.title %}
+              <header>
+                <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+                {% if page.read_time %}
+                  <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+                {% endif %}
+              </header>
+            {% endif %}
+          {% endunless %}
+
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
+          
+          {% unless is_zhihu %}
+            <footer class="page__meta">
+              {% if site.data.ui-text[site.locale].meta_label %}
+                <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+              {% endif %}
+              {% include page__taxonomy.html %}
+              {% include page__date.html %}
+            </footer>
+            {% include social-share.html %}
+            {% include post_pagination.html %}
+          {% endunless %}
         </div>
       </article>
     </div>
