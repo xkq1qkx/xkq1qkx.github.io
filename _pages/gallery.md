@@ -5,10 +5,14 @@ permalink: /gallery/
 author_profile: false
 zhihu_style: true
 images:
-  - image_path: /images/pku_red.jpg
-    title: "PKU Red"
-  - image_path: /images/nus_logo.jpg
-    title: "Singapore"
+  - image_path: /images/gallery_img/gallery_001.jpg
+    title: "sea_01"
+  - image_path: /images/gallery_img/gallery_002.jpg
+    title: "sea_02"
+  - image_path: /images/gallery_img/gallery_003.jpg
+    title: "snow_01"
+  - image_path: /images/gallery_img/gallery_004.jpg
+    title: "mountain_01"
 ---
 
 <div class="zhihu-gallery">
