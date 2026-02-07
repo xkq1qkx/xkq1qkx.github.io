@@ -171,10 +171,7 @@ layout: compress
             {% if page.title %}
               <header>
                 <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-                {% if page.read_time %}
-                  <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-                {% endif %}
-              </header>
+                </header>
             {% endif %}
           {% endunless %}
 
@@ -187,11 +184,11 @@ layout: compress
               {% if site.data.ui-text[site.locale].meta_label %}
                 <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
               {% endif %}
-              {% include page__taxonomy.html %}
-              {% include page__date.html %}
+              {% comment %}{% include page__taxonomy.html %}{% endcomment %}
+              {% comment %}{% include page__date.html %}{% endcomment %}
             </footer>
-            {% include social-share.html %}
-            {% include post_pagination.html %}
+            {% comment %}{% include social-share.html %}{% endcomment %}
+            {% comment %}{% include post_pagination.html %}{% endcomment %}
           {% endunless %}
         </div>
       </article>
