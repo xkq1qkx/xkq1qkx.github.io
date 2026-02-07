@@ -20,3 +20,9 @@ main:
 
   - title: "Internships"
     url: "/#-internships"
+  
+  - title: "Blog"
+    url: "/blog/"
+    
+  - title: "Gallery"
+    url: "/gallery/"
