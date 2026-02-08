@@ -18,11 +18,13 @@ main:
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Internship"
+    url: "/#-internship"
   
-  - title: "Blog"
-    url: "/blog/"
-    
   - title: "Gallery"
     url: "/gallery/"
+    
+  - title: "Blog"
+    url: "/coming_soon/"
+    
+  
