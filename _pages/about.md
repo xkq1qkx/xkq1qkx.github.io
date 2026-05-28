@@ -22,9 +22,9 @@ Hi 👋🏻! I am a fourth-year undergraduate student at Peking University, majo
 
 I worked with [Yuanfei Wang](https://yuanfei-wang.github.io), [Ruihai Wu](https://warshallrho.github.io) and Xiaojie Zhang at PKU-Agibot Lab, under the supervision of Prof.[Hao Dong](https://zsdonghao.github.io). 
 
-I worked with Zhenhao Huang, [Siyuan Luo](https://www.siyuanluo.com/) and [Ziqiu Zeng](https://ziqiu-zeng.github.io/homepage/) at the [Human-Centered Robotic Lab](https://nus-hcrl.github.io/index), National University of Singapore, where I was fortunate to be advised by Prof.[Fan Shi](https://fanshi14.github.io/me/)
+I worked with [Zhenhao Huang](https://zhenhaoh.github.io), [Siyuan Luo](https://www.siyuanluo.com/) and [Ziqiu Zeng](https://ziqiu-zeng.github.io/homepage/) at the [Human-Centered Robotic Lab](https://nus-hcrl.github.io/index), National University of Singapore, where I was fortunate to be advised by Prof.[Fan Shi](https://fanshi14.github.io/me/)
 
-I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation. I am also exploring physics-based simulation.
+I aspire to do interesting, insightful, and fundamental research. My current research interests lie in articulated object manipulation and manipulation robutness. I am also exploring physics-based simulation.
 
 <!--div style="font-family: 'Georgia', serif; font-size: 1.1em; line-height: 1.6; text-align: center; margin: 2rem auto; max-width: 46em; font-style: italic; color: #444; border-top: 1px solid #eee; padding-top: 1.2rem;">
   <span style="font-size: 1.8em; line-height: 0; color: #666;">&ldquo;</span>
@@ -42,10 +42,10 @@ I aspire to do interesting, insightful, and fundamental research. My current res
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Submission</div><img src='images/Real_IKEA-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Real-IKEA : Simulating What Robots Will Really See and Touch
+Real-IKEA : Physical Fidelity for Robust Articulated Manipulation
 
 **Kunqi Xu**, Zhenhao Huang, Siyuan Luo, Ziqiu Zeng, Fan Shi 
-- in submission
+- ICRA 2026 Workshop on Manipulation Robustness
 </div>
 </div>
 
@@ -63,8 +63,7 @@ Yuanfei Wang\*, **Kunqi Xu**\*, Ruihai Wu, Hao Dong
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/AdaRPG-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model
-Reasoning and Part Grounding
+AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model Reasoning and Part Grounding
 
 Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu, **Kunqi Xu**, Yu Li, Liuyu Xiang, Hao Dong, Zhaofeng He
 - ICCV 2025
