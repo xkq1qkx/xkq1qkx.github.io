@@ -76,7 +76,7 @@ Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu, **Kunqi Xu**, Yu Li, Liuyu Xiang, Ha
 
 Emergent Language For Kinship Terms
 
-Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, Lingjun Chen\* 
+Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, [Lingjun Chen](https://lingjunchen.notion.site/Welcome-to-my-Personal-Page-2f44e37f485e8075b5eccab9f1787baf)\* 
 
 [[Code]](https://github.com/xkq1qkx/Emergent-Language-For-Kinship-Terms)
 </div>
@@ -87,8 +87,8 @@ Zhengyu Qian\*, [Zhining Zhang](https://zhining.space)\*, **Kunqi Xu**\*, Lingju
 - *2024* Merit Student, Peking University
 - *2024* Jun Yuan Scholarship, Peking University
 - *2025* Award for Scientific Research, Peking University
-- *2025* Yang Fuqing & Wang Yangyuan Academician Scholarship
-- *2025* 
+- *2025* Yang Fuqing & Wang Yangyuan Academician Scholarship, Peking University
+- *2025* Chen Shouren Scholarship, Peking University
 
 
 # 📖 Experience
