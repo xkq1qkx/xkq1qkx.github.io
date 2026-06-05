@@ -55,7 +55,7 @@ Real-IKEA : Physical Fidelity for Robust Articulated Manipulation
 FoMoAfford: Efficient Affordance Exploration with Foundation Models for Generalizable
 Articulated Object Manipulation
 
-Yuanfei Wang\*, **Kunqi Xu**\*, Ruihai Wu, Hao Dong
+Yuanfei Wang\*, **Kunqi Xu**\*, Ruihai Wu, Yuanpei Chen, Yaodong Yang, Hao Dong
 - in submission
 </div>
 </div>
@@ -65,7 +65,7 @@ Yuanfei Wang\*, **Kunqi Xu**\*, Ruihai Wu, Hao Dong
 
 AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model Reasoning and Part Grounding
 
-Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu, **Kunqi Xu**, Yu Li, Liuyu Xiang, Hao Dong, Zhaofeng He
+Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu\*, **Kunqi Xu**, Yu Li, Liuyu Xiang, Hao Dong, Zhaofeng He
 - ICCV 2025
 </div>
 </div>
