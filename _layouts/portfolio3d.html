@@ -1,0 +1,89 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js portfolio-document">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <meta name="theme-color" content="#071019">
+    <meta name="color-scheme" content="dark">
+    <link rel="preload" href="{{ '/images/robotics-home-fallback.png' | relative_url }}" as="image">
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio3d.css' | relative_url }}">
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "{{ '/assets/vendor/three/three.module.js' | relative_url }}",
+          "three/addons/": "{{ '/assets/vendor/three/addons/' | relative_url }}"
+        }
+      }
+    </script>
+  </head>
+
+  <body class="portfolio-body">
+    <a class="skip-link" href="#portfolio-content" target="_self">Skip to content</a>
+
+    <div class="scene-shell" aria-hidden="true">
+      <div
+        class="scene-fallback"
+        id="scene-fallback"
+        style="background-image: url('{{ '/images/robotics-home-fallback.png' | relative_url }}');"
+      ></div>
+      <canvas id="robotics-scene"></canvas>
+      <div class="scene-atmosphere"></div>
+      <div class="scene-grid"></div>
+      <div class="scene-loader" id="scene-loader" role="status" aria-live="polite">
+        <span class="scene-loader__gear" aria-hidden="true"></span>
+        <span id="scene-loader-label">Assembling robotics scene&nbsp; 0%</span>
+      </div>
+      <div class="scene-error" id="scene-error" hidden>
+        Interactive scene unavailable — showing the rendered fallback.
+      </div>
+    </div>
+
+    <header class="portfolio-nav" id="portfolio-nav">
+      <a class="portfolio-brand" href="#home" target="_self" aria-label="Kunqi Xu — home">
+        <span class="portfolio-brand__mark" aria-hidden="true">KX</span>
+        <span class="portfolio-brand__text">Kunqi Xu</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="portfolio-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="portfolio-menu" id="portfolio-menu" aria-label="Primary navigation">
+        <a href="#home" target="_self">Home</a>
+        <a href="#news" target="_self">News</a>
+        <a href="#publications" target="_self">Publication</a>
+        <a href="#honors" target="_self">Honors &amp; Awards</a>
+        <a href="#gallery" target="_self">Gallery</a>
+        <a href="#experience" target="_self">Experience</a>
+      </nav>
+      <div class="scroll-meter" aria-hidden="true"><span id="scroll-meter-bar"></span></div>
+    </header>
+
+    <main id="portfolio-content" class="portfolio-story">
+      {{ content }}
+    </main>
+
+    <span id="scene-section-label" hidden>Home</span>
+    <span id="scene-interaction-label" hidden>Move pointer to interact</span>
+
+    <noscript>
+      <style>.scene-loader { display: none; } .scene-fallback { opacity: 1; }</style>
+    </noscript>
+
+    <script>
+      window.__KUNQI_PORTFOLIO__ = {
+        modelUrl: "{{ '/assets/models/robotics_portfolio.glb' | relative_url }}",
+        homeFallback: "{{ '/images/robotics-home-fallback.png' | relative_url }}",
+        overviewFallback: "{{ '/images/robotics-overview-fallback.png' | relative_url }}",
+        publicationsFallback: "{{ '/images/robotics-publications-fallback.png' | relative_url }}",
+        awardsFallback: "{{ '/images/robotics-awards-fallback.png' | relative_url }}",
+        dracoPath: "{{ '/assets/vendor/three/draco/' | relative_url }}"
+      };
+    </script>
+    <script type="module" src="{{ '/assets/js/portfolio3d.js' | relative_url }}"></script>
+    {% include analytics.html %}
+  </body>
+</html>

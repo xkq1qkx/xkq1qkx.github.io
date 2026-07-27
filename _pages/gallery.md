@@ -13,6 +13,14 @@ images:
     title: "snow_01"
   - image_path: /images/gallery_img/gallery_004.jpg
     title: "mountain_01"
+  - image_path: /images/gallery_img/IMG_0681.jpeg
+    title: "gallery_05"
+  - image_path: /images/gallery_img/1162.JPG
+    title: "gallery_06"
+  - image_path: /images/gallery_img/IMG_4783.JPG
+    title: "gallery_07"
+  - image_path: /images/gallery_img/983efc7bfe2e4528bf0b660b7118e2aa.jpg
+    title: "gallery_08"
 ---
 
 <div class="zhihu-gallery">
