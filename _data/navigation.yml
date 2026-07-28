@@ -1,30 +1,19 @@
-# main links links
+# Main navigation
 main:
-  - title: "About Me"
-    url: "/#about-me"
-
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
 
   - title: "Experience"
-    url: "/#-experience"
+    url: "/#experience"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internship"
-    url: "/#-internship"
-  
   - title: "Gallery"
     url: "/gallery/"
-    
+
   - title: "Blog"
-    url: "/coming_soon/"
-    
-  
+    url: "/blog/"
