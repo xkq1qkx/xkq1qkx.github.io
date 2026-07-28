@@ -27,7 +27,7 @@ I aspire to pursue interesting, insightful, and fundamental research. My current
 
 # Publications
 
-<p class="section-note">(Still working toward having enough for a “Selected Publications” section 😅)</p>
+<p class="section-note">Still working toward a “Selected Publications” section 💪🏻</p>
 
 \* indicates equal contribution.
 
