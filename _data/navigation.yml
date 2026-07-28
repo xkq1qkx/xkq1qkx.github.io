@@ -12,8 +12,8 @@ main:
   - title: "Experience"
     url: "/#experience"
 
-  - title: "Gallery"
-    url: "/gallery/"
+  - title: "Landscapes I Love"
+    url: "/#landscapes-i-love"
 
   - title: "Blog"
     url: "/blog/"

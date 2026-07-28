@@ -27,6 +27,8 @@ I aspire to pursue interesting, insightful, and fundamental research. My current
 
 # Publications
 
+<p class="section-note">(Still working toward having enough for a “Selected Publications” section 😅)</p>
+
 \* indicates equal contribution.
 
 <div class="paper-box">
@@ -77,24 +79,76 @@ Yuanfei Wang\*, **Kunqi Xu\***, Ruihai Wu, Yaodong Yang, Yuanpei Chen, Hao Dong
 
 # Honors and Awards
 
-- **2026** — Beijing Excellent Graduate *(5% of all EECS graduates)*
+- **2026** — Beijing Excellent Graduate (<span class="award-highlight">5% of all EECS graduates</span>)
 - **2026** — Peking University Excellent Graduate
 - **2025** — Award for Scientific Research, Peking University
 - **2025** — Yang Fuqing & Wang Yangyuan Academician Scholarship, Peking University
 - **2025** — Chen Shouren Scholarship, Peking University
 - **2024** — Peking University Merit Student
-- **2024** — Jun Yuan Scholarship *(fewer than 15 students annually)*
+- **2024** — Jun Yuan Scholarship (<span class="award-highlight">fewer than 15 students annually</span>)
 - **2023** — Peking University Merit Student
 - **2023** — Ling Jun Pioneer Scholarship, Peking University
 
 # Experience
 
-- **2026.01 — Present** · **Tsinghua University, IEI Lab** — Incoming PhD Student · Advisor: Prof. Xueyan Zou
+<div class="experience-list">
+  <article class="experience-row">
+    <div class="experience-logo"><img src="/images/thu_logo.jpg" alt="Tsinghua University logo" loading="lazy"></div>
+    <div class="experience-copy">
+      <time>2026.01 — Present</time>
+      <strong>Tsinghua University · IEI Lab</strong>
+      <p>Incoming PhD Student · Advisor: Prof. Xueyan Zou</p>
+    </div>
+  </article>
 
-- **2025.10 — 2026.03** · **RWTH Aachen University** — Exchange Student · Aachen, Germany
+  <article class="experience-row">
+    <div class="experience-logo"><img src="/images/rwth_logo.jpeg" alt="RWTH Aachen University logo" loading="lazy"></div>
+    <div class="experience-copy">
+      <time>2025.10 — 2026.03</time>
+      <strong>RWTH Aachen University</strong>
+      <p>Exchange Student · Aachen, Germany</p>
+    </div>
+  </article>
 
-- **2025.04 — 2025.10** · **National University of Singapore, Human-Centered Robotic Lab** — Research Visitor · Advisor: Prof. Fan Shi
+  <article class="experience-row">
+    <div class="experience-logo"><img src="/images/nus_logo.jpg" alt="National University of Singapore logo" loading="lazy"></div>
+    <div class="experience-copy">
+      <time>2025.04 — 2025.10</time>
+      <strong>National University of Singapore · Human-Centered Robotic Lab</strong>
+      <p>Research Visitor · Advisor: Prof. Fan Shi</p>
+    </div>
+  </article>
 
-- **2024.03 — 2025.03** · **Peking University, PKU-Agibot Lab** — Research Intern · Advisor: Prof. Hao Dong
+  <article class="experience-row">
+    <div class="experience-logo"><img src="/images/pku_red.png" alt="Peking University logo" loading="lazy"></div>
+    <div class="experience-copy">
+      <time>2024.03 — 2025.03</time>
+      <strong>Peking University · PKU-Agibot Lab</strong>
+      <p>Research Intern · Advisor: Prof. Hao Dong</p>
+    </div>
+  </article>
 
-- **2022.09 — 2026.07** · **Peking University, School of EECS** — B.S. in Intelligence Science and Technology
+  <article class="experience-row">
+    <div class="experience-logo"><img src="/images/pku_red.png" alt="Peking University logo" loading="lazy"></div>
+    <div class="experience-copy">
+      <time>2022.09 — 2026.07</time>
+      <strong>Peking University · School of EECS</strong>
+      <p>B.S. in Intelligence Science and Technology</p>
+    </div>
+  </article>
+</div>
+
+<details class="landscape-details">
+  <summary id="landscapes-i-love">Landscapes I Love</summary>
+  <p class="landscape-intro">A few places and moments I wanted to keep.</p>
+  <div class="landscape-grid">
+    <a href="/images/gallery_img/gallery_001.jpg"><img src="/images/gallery_img/gallery_001.jpg" alt="Sea landscape" loading="lazy"></a>
+    <a href="/images/gallery_img/gallery_002.jpg"><img src="/images/gallery_img/gallery_002.jpg" alt="Sea landscape" loading="lazy"></a>
+    <a href="/images/gallery_img/gallery_003.jpg"><img src="/images/gallery_img/gallery_003.jpg" alt="Snow landscape" loading="lazy"></a>
+    <a href="/images/gallery_img/gallery_004.jpg"><img src="/images/gallery_img/gallery_004.jpg" alt="Mountain landscape" loading="lazy"></a>
+    <a href="/images/gallery_img/IMG_0681.jpeg"><img src="/images/gallery_img/IMG_0681.jpeg" alt="Landscape photograph" loading="lazy"></a>
+    <a href="/images/gallery_img/1162.JPG"><img src="/images/gallery_img/1162.JPG" alt="Landscape photograph" loading="lazy"></a>
+    <a href="/images/gallery_img/IMG_4783.JPG"><img src="/images/gallery_img/IMG_4783.JPG" alt="Landscape photograph" loading="lazy"></a>
+    <a href="/images/gallery_img/983efc7bfe2e4528bf0b660b7118e2aa.jpg"><img src="/images/gallery_img/983efc7bfe2e4528bf0b660b7118e2aa.jpg" alt="Landscape photograph" loading="lazy"></a>
+  </div>
+</details>

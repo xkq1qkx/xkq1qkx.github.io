@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Gallery"
+title: "Landscapes I Love"
 permalink: /gallery/
 author_profile: false
 zhihu_style: true
