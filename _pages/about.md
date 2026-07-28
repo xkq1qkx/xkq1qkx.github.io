@@ -80,8 +80,6 @@ Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu\*, **Kunqi Xu**, Yu Li, Liuyu Xiang, 
 **FoMoAfford: Efficient Affordance Exploration with Foundation Models for Generalizable Articulated Object Manipulation**
 
 Yuanfei Wang\*, **Kunqi Xu\***, Ruihai Wu, Yaodong Yang, Yuanpei Chen, Hao Dong
-
-<p class="publication-venue">In submission</p>
 </div>
 </div>
 
@@ -130,18 +128,10 @@ Yuanfei Wang\*, **Kunqi Xu\***, Ruihai Wu, Yaodong Yang, Yuanpei Chen, Hao Dong
   <article class="experience-row">
     <div class="experience-logo"><img src="/images/pku_red.png" alt="Peking University logo" loading="lazy"></div>
     <div class="experience-copy">
-      <time>2024.03 — 2025.03</time>
-      <strong>Peking University · PKU-Agibot Lab</strong>
-      <p>Research Intern · Advisor: Prof. Hao Dong</p>
-    </div>
-  </article>
-
-  <article class="experience-row">
-    <div class="experience-logo"><img src="/images/pku_red.png" alt="Peking University logo" loading="lazy"></div>
-    <div class="experience-copy">
       <time>2022.09 — 2026.07</time>
-      <strong>Peking University · School of EECS</strong>
-      <p>B.S. in Intelligence Science and Technology</p>
+      <strong>Peking University</strong>
+      <p>B.S. in Intelligence Science and Technology · School of EECS</p>
+      <p>Research Intern, PKU-Agibot Lab (2024.03 — 2025.03) · Advisor: Prof. Hao Dong</p>
     </div>
   </article>
 </div>
