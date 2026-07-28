@@ -39,6 +39,8 @@ I aspire to pursue interesting, insightful, and fundamental research. My current
 
 **Kunqi Xu\***, Jitao Li, Jianglong Ye, Tianshu Tang, Isabella Liu, Sifei Liu, Xueyan Zou\*
 
+<p class="publication-venue">In submission</p>
+
 [[ArXiv](https://arxiv.org/abs/2605.18743)] [[Project](https://worldstring-iei.github.io)]
 </div>
 </div>
@@ -50,6 +52,8 @@ I aspire to pursue interesting, insightful, and fundamental research. My current
 **Real-IKEA: Physical Fidelity is the Prerequisite for Robust Articulated Manipulation**
 
 **Kunqi Xu**, Zhenhao Huang, Siyuan Luo, Ziqiu Zeng, Fan Shi
+
+<p class="publication-venue">ICRA 2026 Workshop on Manipulation Robustness</p>
 
 [[ArXiv](https://arxiv.org/abs/2606.08564)]
 </div>
@@ -63,6 +67,8 @@ I aspire to pursue interesting, insightful, and fundamental research. My current
 
 Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu\*, **Kunqi Xu**, Yu Li, Liuyu Xiang, Hao Dong, Zhaofeng He
 
+<p class="publication-venue">ICCV 2025</p>
+
 [[ArXiv](https://arxiv.org/abs/2507.18276)]
 </div>
 </div>
@@ -74,6 +80,8 @@ Xiaojie Zhang\*, Yuanfei Wang\*, Ruihai Wu\*, **Kunqi Xu**, Yu Li, Liuyu Xiang, 
 **FoMoAfford: Efficient Affordance Exploration with Foundation Models for Generalizable Articulated Object Manipulation**
 
 Yuanfei Wang\*, **Kunqi Xu\***, Ruihai Wu, Yaodong Yang, Yuanpei Chen, Hao Dong
+
+<p class="publication-venue">In submission</p>
 </div>
 </div>
 
